@@ -1,0 +1,520 @@
+@charset "UTF-8";
+.image {
+  position: relative;
+  margin: -14px;
+}
+.image nav {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.otstyp5{
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.marklist {
+  padding-left: 900px;
+}
+.marklist a:hover {
+  transition: 0.5s;
+  color: #13baed;
+}
+
+ul.marklist li {
+  display: inline;
+  margin: 12px;
+  font-size: 18px;
+  font-family: "Russo One";
+}
+ul.marklist a {
+  color: white;
+  text-decoration: none;
+}
+
+.telephone{
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+.zagolovok {
+  font-family: "Roboto";
+  font-size: 230%;
+  text-align: center;
+}
+
+.text {
+  font-family: "Open Sans";
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list2 li {
+  list-style: none;
+}
+.list2 li:before {
+  content: "➤";
+}
+
+.othersites {
+  color: #13baed;
+}
+.othersites:hover {
+  cursor: help;
+  transition: 0.5s;
+  color: #03fcc2;
+}
+
+.benefits {
+  margin-left: 100px;
+  margin-right: 150px;
+  width: 85%;
+  table-layout: fixed;
+}
+.photo:active {
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.photo:hover{
+  transition: 0.5s;
+  transform: scale(0);
+
+}
+.text1 {
+  font-family: "Open Sans";
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: top;
+  word-wrap: normal;
+}
+.text1 strong {
+  font-weight: bolder;
+}
+
+.countries {
+  padding-left: 250px;
+  transition: 1s;
+}
+
+.countries:hover{
+  transform: scale(1.06);
+}
+
+.textcountry {
+  padding-left: 30px;
+  padding-right: 120px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.textcountry p {
+  padding-right: 200px;
+  font-family: "Open Sans";
+  text-align: justify;
+}
+.textcountry h3 {
+  font-family: "Russo One";
+}
+
+.send {
+  color: black;
+  font-family: "Russo One";
+}
+.send:hover {
+  cursor: alias;
+  color: blue;
+  transition: 0.5s;
+}
+
+.opros {
+  padding-left: 30px;
+  font-family: "Open Sans";
+}
+
+.button-otpr {
+  margin-top: 15px;
+  margin-left: 10px;
+  background: transparent;
+  border-width: 0;
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 18px;
+  transition: 0.3s;
+}
+.button-otpr span {
+  display: block;
+  position: relative;
+  z-index: 3;
+  color: white;
+  padding: 0 30px;
+  line-height: 40px;
+}
+.button-otpr:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  left: -5px;
+  top: -5px;
+  background: #0095ff;
+  z-index: 1;
+  transition: 0.4s ease-out;
+}
+.button-otpr:hover:before {
+  transform: translate(5px, 5px);
+}
+.button-otpr:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  right: -5px;
+  bottom: -5px;
+  background: #00e5ff;
+  transition: 0.4s ease-out 0.1s;
+}
+.button-otpr:hover:after {
+  transform: translate(-5px, -5px);
+}
+
+.pole, .atribut {
+  font-family: "Open Sans";
+}
+.pole p, .atribut p {
+  clear: both;
+  line-height: 25px;
+  padding-right: 50px;
+}
+
+.atribut {
+  text-align: left;
+}
+
+.user {
+  font-family: "Open Sans";
+  font-size: 15px;
+  width: 280px;
+  padding-left: 15px;
+  height: 27px;
+  border-radius: 3px;
+}
+
+.label {
+  float: left;
+  padding-left: 20px;
+}
+
+.agree {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+.formsvaz {
+  margin-left: 550px;
+  margin-right: 550px;
+  padding-left: 30px;
+  border-width: 5px;
+  border-style: groove;
+  border-radius: 10px;
+  border-color: #b8b8b8;
+}
+
+.scroll {
+  width: 300px;
+  height: 70px;
+  font-weight: 12px;
+  overflow-y: scroll;
+  font-family: "Open Sans";
+}
+
+.button-reg {
+  font-family: "Open Sans";
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  background: #0080ff;
+}
+.button-reg:hover {
+  background: #09ff00;
+  transition: 0.5s;
+}
+
+textarea{
+  border-color: black;
+  border-width: 2px;
+  resize: none;
+}
+
+.otstyp2 {
+  margin-top: 200px;
+}
+.otstyp1{
+  margin-top: 50px;
+}
+.socnetwork {
+  padding-left: 660px;
+}
+
+ul.socnetwork li {
+  display: inline;
+}
+
+.footer {
+  position: relative;
+  margin: -30px;
+  margin-top: 90px;
+}
+.footer nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #003282;
+}
+
+.niz {
+  font-family: "Open Sans";
+  color: white;
+  padding-left: 595px;
+}
+
+/*ACCORDEON*/
+#accordeon {
+	width: 350px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 10px grey;
+	margin: 10px;
+}
+
+.acc-head {
+	padding: 5px 10px;
+	background: #c0c0c0;
+	cursor: pointer;
+}
+
+.acc-body {
+	padding: 10px;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 5px;
+	display: none;
+}
+/*SORTABLE*/
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+/*CARUSEL*/
+#carousel {
+  width:1200px;
+  margin: 30px auto;
+  height:300px;
+  position:relative;
+  clear:both;
+  overflow:hidden;
+  background:#FFF;
+}
+#carousel img {
+  visibility:hidden; /* hide images until carousel can handle them */
+  cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+}
+
+.split-left {
+  width:750px;
+  float:left;
+}
+.split-right {
+  width:700px;
+  float:left;
+  margin-left:10px;
+}
+#callback-output {
+  height:250px;
+  overflow:scroll;
+}
+textarea #newoptions {
+  width:830px;
+}
+.nav {
+  width: 80px;
+  margin: 20px auto
+}
+
+/*:root {
+  /*background-image: url(images/office.jpg);
+  --bg: #eb008c;
+}
+
+
+
+.wrapper {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 300px;
+}
+
+#button {
+  visibility: hidden;
+  position: absolute;
+  left: 500px;
+}
+
+.label {
+  position: absolute;
+  border: 2px solid var(--bg);
+  width: 200px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  transform: scale(0.8);
+}
+
+.modal {
+  width: 0;
+  height: 0;
+  background: var(--bg);
+  border-radius: 50%;
+  transition: 0.5s all ease;
+  position: relative;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0;
+}
+.close:before, .close:after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 17px;
+  background: white;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+#button:checked ~ .label {
+  background-image: url(images/office.jpg);
+  background: var(--bg);
+  transition: 0.5s all ease;
+  transform: scale(1);
+}
+#button:checked ~ .modal {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  transition: 0.5s width ease 0.3s, 0.5s height ease 0.3s, 0.5s border-radius ease 0.5s;
+}
+#button:checked ~ .modal .close {
+  opacity: 1;
+  transition: 0.5s all ease 1s;
+}*/
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 470px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hiden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+      width: 100%;
+  }
+}
